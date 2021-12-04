@@ -68,6 +68,7 @@ tbody tr td{
 	width: 40%;
 }
 
+
 tbody tr td .a{
 	margin-right: 10px;
 	text-decoration: none;
@@ -113,3 +114,39 @@ tbody tr td:hover{
 		display: none;
 	}
 }
+.ana{
+	display: none;
+}
+.navegacion input{
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50; /* Green */
+	transition-duration: 0.4s;
+	right: 15px;
+	height: 50px;
+	width: 41%;
+	font-size: 16px;
+	border-radius: 8px;
+	padding: 10px 20px;
+	font-family: 'Nerko One', cursive;
+	font-size: 20px;
+	margin: 30px;
+	}
+@media (max-width: 457px){
+
+	.navegacion input{
+		width: 40%;
+		margin: 10px;
+	}
+	.navegacion img{
+		display: none;
+		
+	}
+	.ana{
+		display: flex;
+		font-size: 25px;
+		margin-top: 20px;
+		margin-left: 0%;
+	}
+}	
+

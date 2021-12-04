@@ -1073,6 +1073,24 @@ section {
   -webkit-filter: drop-shadow(0 0 0.1rem #333);
           filter: drop-shadow(0 0 0.1rem #333);
 }
+.sec2{
+  display: none;
+}
+.sec1{
+  display: flex;
+}
+.sec3{
+  display: none;
+}
+@media (max-width: 1030px) {
+  .sec1{
+    display: none;
+  }
+  .sec2{
+    display: flex;
+  }
+}
+
 
 @media (max-width: 1200px) {
   html {
@@ -1083,6 +1101,14 @@ section {
   }
   section {
     padding: 3rem 2rem;
+  }
+}
+@media (max-width: 930px){
+  .sec2{
+    display: none;
+  }
+  .sec3{
+    display: flex;
   }
 }
 
@@ -1112,6 +1138,7 @@ section {
             flex-flow: column;
     text-align: center;
   }
+
 }
 
 @media (max-width: 768px) {
