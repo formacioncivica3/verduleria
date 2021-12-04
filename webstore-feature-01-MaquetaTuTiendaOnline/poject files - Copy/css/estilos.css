@@ -135,7 +135,7 @@ tbody tr td:hover{
 @media (max-width: 457px){
 
 	.navegacion input{
-		width: 40%;
+		width: 50%;
 		margin: 10px;
 	}
 	.navegacion img{
