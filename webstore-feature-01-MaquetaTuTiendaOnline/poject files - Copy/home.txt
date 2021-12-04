@@ -22,21 +22,14 @@
 
 <header class="header">
 
-    <a href="home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
-
-    <form action="" class="search-form">
-        <input type="search" id="search-box" placeholder="search here...">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
+    
 
     <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <div id="search-btn" class="fas fa-search"></div>
-        <a href="login.html" class="fas fa-user"></a>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="cart.html" class="fas fa-shopping-cart"></a>
-    </div>
 
+        <div style=" display: none;" id="menu-btn" class="fas fa-bars"></div>
+        <div style=" display: none;" id="search-btn" class="fas fa-search"></div>
+    </div>
+    <iframe height="400px" width="100%" src="Galeria.html" frameborder="0"></iframe>
 </header>
 
 <!-- header section ends -->
@@ -53,16 +46,6 @@
         <a href="#">log out</a>
     </div>
 
-    <nav class="navbar">
-        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
-        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
-        <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
-        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
-        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
-        <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
-        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
-    </nav>
-
 </div>
 
 <!-- side-bar section ends -->
@@ -70,7 +53,7 @@
 <!-- home section starts  -->
 
 <section class="home">
-
+<h1 style="font-size: 30px; font-family: 'Nerko One', cursive; margin: 30px;">Fruta de Temporada</h1>
     <div class="swiper home-slider">
 
         <div class="swiper-wrapper">
@@ -80,9 +63,9 @@
                 <img src="images/home-img-1.jpg" alt="">
             </div>
             <div class="content">
-                <span>upto 50% off</span>
-                <h3>smartphones</h3>
-                <a href="#" class="btn">shop now</a>
+                <span>150$-1kg</span>
+                <h3>Jitomate</h3>
+                <a href="#" class="btn">Pedir</a>
             </div>
         </div>
 
@@ -91,9 +74,9 @@
                 <img src="images/home-img-2.jpg" alt="">
             </div>
             <div class="content">
-                <span>upto 50% off</span>
-                <h3>smartwatch</h3>
-                <a href="#" class="btn">shop now</a>
+                <span>150$-1kg</span>
+                <h3>Manzana</h3>
+                <a href="#" class="btn">Pedir</a>
             </div>
         </div>
 
@@ -102,9 +85,9 @@
                 <img src="images/home-img-3.jpg" alt="">
             </div>
             <div class="content">
-                <span>upto 50% off</span>
-                <h3>headphones</h3>
-                <a href="#" class="btn">shop now</a>
+                <span>150$-1kg</span>
+                <h3>Tomate verde</h3>
+                <a href="#" class="btn">Pedir</a>
             </div>
         </div>
 
@@ -121,6 +104,7 @@
 
 <!-- banner section starts  -->
 
+<h1 style="font-size: 30px; font-family: 'Nerko One', cursive; margin: 30px; margin: 100px;">Descuentos y ofertas</h1>
 <section class="banner">
 
     <div class="box-container">
@@ -128,202 +112,105 @@
         <a href="#" class="box">
             <img src="images/banner-1.jpg" alt="">
             <div class="content">
-                <span>special offer</span>
-                <h3>upto 50% off</h3>
+                <span>oferta especial</span>
+                <h3>50% porciento<br> de descuento</h3>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="images/banner-2.jpg" alt="">
             <div class="content">
-                <span>special offer</span>
-                <h3>upto 50% off</h3>
+                <span>oferta especial</span>
+                <h3>50% porciento<br> de descuento</h3>
             </div>
         </a>
 
         <a href="#" class="box">
             <img src="images/banner-3.jpg" alt="">
             <div class="content">
-                <span>special offer</span>
-                <h3>upto 50% off</h3>
+                <span>oferta especial</span>
+                <h3>50% porciento<br> de descuento</h3>
             </div>
         </a>
         
     </div>
 
 </section>
+<h1 class="sec1" style="font-size: 30px; font-family: 'Nerko One', cursive; margin: 30px;">Fruta de Temporada</h1>
+<section class="sec1">
+    <div class="clases" style="display: flex;">
+        <div style="margin: 30px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/fruta.png" alt="">
+            <center><h1 style="font-size: 20px;">Frutas </h1></center>
+        </div>
+        <div style="margin: 30px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/verduras.png" alt="">
+            <center><h1 style="font-size: 20px;">Verduras</h1></center>
+        </div>
+        <div style="margin: 25px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/camion-de-abarrotes.png" alt="">
+            <center><h1 style="font-size: 20px;">Abarrotes </h1></center>
+        </div>
+        <div style="margin: 25px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/productos-lacteos.png" alt="">
+            <center><h1 style="font-size: 20px;">Lacteos</h1></center>
+        </div>
+    </div>
+</section >
+
+<h1 class="sec2" style="font-size: 30px; font-family: 'Nerko One', cursive; margin: 30px;">Fruta de Temporada</h1>
+<section class="sec2" >
+
+    <div class="clases" style="display: flex; flex-direction: column;">
+        <div style="margin: 25px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/fruta.png" alt="">
+            <center><h1 style="font-size: 20px;">Frutas </h1></center>
+        </div>
+        <div style="margin: 25px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/productos-lacteos.png" alt="">
+            <center><h1 style="font-size: 20px;">Lacteos</h1></center>
+        </div>
+        
+    </div>
+    <div class="clases" style="display: flex; flex-direction: cow;">
+        <div style="margin: 25px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/fruta.png" alt="">
+            <center><h1 style="font-size: 20px;">Frutas </h1></center>
+        </div>
+        <div style="margin: 30px; background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 200px; height: 200px; border-radius: 10px;" src="images/camion-de-abarrotes.png" alt="">
+            <center><h1 style="font-size: 20px;">Abarrotes</h1></center>
+        </div>
+    </div>
+</section>
+<h1 class="sec3" style="font-size: 30px; font-family: 'Nerko One', cursive; margin: 30px;">Fruta de Temporada</h1>
+<section class="sec3">
+
+    <div class="clases" style="display: flex; flex-direction: column;">
+        <div style="margin: 25px; background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;" src="images/fruta.png" alt="">
+            <center><h1 style="font-size: 20px;">Frutas </h1></center>
+        </div>
+        <div style="margin: 25px; background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;" src="images/productos-lacteos.png" alt="">
+            <center><h1 style="font-size: 20px;">Lacteos</h1></center>
+        </div>
+        
+    </div>
+    <div class="clases" style="display: flex; flex-direction: column;">
+        <div style="margin: 25px; background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;" src="images/fruta.png" alt="">
+            <center><h1 style="font-size: 20px;">Frutas </h1></center>
+        </div>
+        <div style="margin: 25px; background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;">
+            <img style="background-color: darksalmon;width: 150px; height: 150px; border-radius: 10px;" src="images/camion-de-abarrotes.png" alt="">
+            <center><h1 style="font-size: 20px;">Abarrotes</h1></center>
+        </div>
+    </div>
+</section>
 
 <!-- banner section ends -->
 
-<!-- arrivals section starts  -->
-
-<section class="arrivals">
-
-    <h1 class="heading"> new <span>arrivals</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-1.jpg" class="main-img" alt="">
-                <img src="images/arrival-1-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>HD television</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-2.jpg" class="main-img" alt="">
-                <img src="images/arrival-2-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>lenovo laptop</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-3.jpg" class="main-img" alt="">
-                <img src="images/arrival-3-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>new smartphone</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-4.jpg" class="main-img" alt="">
-                <img src="images/arrival-4-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>new printer</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-5.jpg" class="main-img" alt="">
-                <img src="images/arrival-5-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>new headphones</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/arrival-6.jpg" class="main-img" alt="">
-                <img src="images/arrival-6-hover.jpg" class="hover-img" alt="">
-            </div>
-            <div class="content">
-                <h3>new speakers</h3>
-                <div class="price"> $249.99 <span>$399.99</span> </div>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- arrivals section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- footer section starts  -->
-
-<section class="quick-links">
-
-    <a href="home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
-
-    <div class="links">
-        <a href="home.html"> home </a>
-        <a href="about.html"> about </a>
-        <a href="products.html"> products </a>
-        <a href="contact.html"> contact </a>
-        <a href="login.html"> login </a>
-        <a href="register.html"> register </a>
-        <a href="cart.html"> cart </a>
-    </div>
-
-    <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-    </div>
-
-</section>
-
-<section class="credit">
-
-    <p> created by <span>mr. web designer</span> | all rights reserved! </p>
-
-    <img src="images/card_img.png" alt="">
-
-</section>
 
 <!-- footer section ends -->
 
