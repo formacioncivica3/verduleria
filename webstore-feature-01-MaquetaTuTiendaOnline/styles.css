@@ -100,3 +100,11 @@ input{
     background-color: #4CAF50; /* Green */
     color: white;
 }
+@media (max-width: 768px){
+	.contenedor h1{
+		display: none;
+    }
+    input{
+        width: 50%;
+    }
+}
